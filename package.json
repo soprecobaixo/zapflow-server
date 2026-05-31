@@ -1,1 +1,14 @@
-
+{
+  "name": "zapflow-baileys-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@hapi/boom": "^10.0.1",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3",
+    "cors": "^2.8.5",
+    "pino": "^9.0.0"
+  }
+}
